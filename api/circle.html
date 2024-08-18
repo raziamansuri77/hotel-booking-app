@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doughnut Chart</title>
+    <style>
+      .doughnut-chart {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: conic-gradient(
+          red 0% 20%,
+          blue 20% 50%,
+          Yellow 50% 70%,
+          Green 70% 100%
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .doughnut-inner {
+        width: 120px;
+        height: 120px;
+        background-color: aliceblue;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="doughnut-chart">
+      <div class="doughnut-inner"></div>
+    </div>
+  </body>
+</html>
+<!-- <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .doughnut-chart {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: conic-gradient(
+        #4caf50 0% 40%,
+        /* Green segment: 40% */ #ffeb3b 40% 70%,
+        blue 70% 90%,
+        /* Yellow segment: 30% */ #f44336 90% 100% /* Red segment: 30% */
+      );
+      position: relative;
+    }
+
+    .doughnut-inner {
+      width: 100px;
+      height: 100px;
+      background-color: #f4f4f4;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style> -->
